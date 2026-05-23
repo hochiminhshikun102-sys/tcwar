@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-bone: #f4efe5;
+  --color-ink: #1f211c;
+  --color-moss: #3e4532;
+  --color-clay: #a85d35;
+  --color-bronze: #c9a86a;
+  --font-display: var(--font-oswald), Impact, sans-serif;
+  --font-sans: var(--font-inter), Arial, sans-serif;
+  --shadow-soft: 0 24px 80px rgba(31, 33, 28, 0.16);
+}
 
 :root {
   color-scheme: light;
